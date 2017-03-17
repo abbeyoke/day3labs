@@ -24,7 +24,7 @@ Array.prototype.toOneThousand = function(){
 }
 
 
-function binarySearch(value){
+Array.prototype.search = function(value){
  // var this = [];
   //this = this.toTwenty();
   var startIndex  = 0,
